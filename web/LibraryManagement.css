@@ -1,0 +1,62 @@
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css ";
+
+body {
+    font-family: PT Serif Caption, serif;
+    font-size: x-large;
+    color: #bcb8c4;
+    background-image: url(https://mdbootstrap.com/img/Photos/Others/images/92.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+table, th, td {
+    border: 6px double rgba(70, 23, 53, 0.75);
+    background-color: rgba(11, 27, 140, 0.37);
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0b1b8c;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #bcb8c4;
+    text-align: center;
+    padding: 4px 4px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+::placeholder {
+    color: blue;
+    opacity: 1;
+}
+
+:-ms-input-placeholder {
+    color: blue;
+}
+
+::-ms-input-placeholder {
+    color: blue;
+}
