@@ -3,40 +3,47 @@
 body {
     font-family: "PT Serif Caption", serif;
     background-color: #0b1b8c;
-    background-image: url("https://mdbootstrap.com/img/Photos/Others/images/92.jpg");
+    background-image: url(https://images.wallpaperscraft.com/image/books_library_shelves_138556_1920x1080.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
 }
 
+* {
+    color: #fefffaf5;
+}
+
 .login-box {
     width: 400px;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
+    top: 19%;
+    left: 35%;
+    color: #ffbb99;
     resize: vertical;
-    background-color: rgba(48, 104, 148, 0.33);
+    background-color: #2b200cc7;
+    transform: scale(1.2);
 }
 
 .login-box h1 {
     float: left;
-    font-size: 40px;
+    color: #ffbb99;
+
+    font-size: 43px;
     font-family: "PT Serif Caption", serif;
-    border-bottom: 6px solid rgba(0, 1, 148, 0.91);
-    margin-bottom: 50px;
+    border-bottom: 6px solid rgb(31 22 20);
+    margin-bottom: 44px;
     padding: 13px 25px 0;
+    padding-bottom: 8px;
 }
 
 .textbox {
     width: 360px;
     overflow: hidden;
     font-size: 20px;
-    font-family: "PT Serif Caption", serif;
     padding: 16px 20px 0;
-    margin: 8px 0;
-    border-bottom: 1px solid rgba(0, 1, 148, 0.91);
+    margin: 22px 0;
+    border-bottom: 3px solid rgb(40 27 24);
+    padding-bottom: 8px;
 }
 
 ::placeholder {
@@ -56,14 +63,15 @@ body {
     width: 26px;
     float: left;
     text-align: center;
+    color: #ffbb99;
+
 }
 
 .textbox input {
     border: none;
     outline: none;
     background: none;
-    color: white;
-    font-size: 18px;
+    font-size: 19px;
     font-family: "PT Serif Caption", serif;
     width: 80%;
     float: left;
@@ -72,12 +80,32 @@ body {
 
 .btn {
     width: 50%;
-    background: none;
-    border: 2px solid rgba(0, 1, 148, 0.91);
-    color: white;
+    background: #100d0ae6;
+    outline: transparent;
+    border: 2px solid rgb(60 44 38);
+    color: #dda285;
+    border-radius: 30px;
     padding: 5px;
-    font-size: 18px;
+    font-size: 23px;
     font-family: "PT Serif Caption", serif;
     cursor: pointer;
-    margin: 12px 0;
+    margin: -17px 0;
+    margin-bottom: 17px;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+    background: antiquewhite;
+}
+
+a {
+    color: #fefffaf5;
+}
+
+a:hover {
+    color: #f6c17b;
+}
+
+span {
+    color: #ffbb99;
 }

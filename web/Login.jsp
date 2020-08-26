@@ -18,11 +18,11 @@
     <form action="Authentication" method="GET">
         <div class="textbox">
             <i class="fas fa-user"></i>
-            <input type="text" name="user_name" placeholder="User Name" required>
+            <input autocomplete="off" type="text" name="user_name" placeholder="User Name" required="">
         </div>
         <div class="textbox">
             <i class="fas fa-lock"></i>
-            <input type="password" name="password" placeholder="Password" required>
+            <input autocomplete="off" type="password" name="password" placeholder="Password" required="">
         </div>
         <br><br>
         <center><input type="submit" class="btn" value="LOGIN"><br>
@@ -30,8 +30,9 @@
                 <span>You are not a member ?</span>
                 <a href="Register.jsp">REGISTER NOW</a><br>
             </h3>
-        </center><br>
+        </center>
     </form>
 </div>
+
 </body>
 </html>

@@ -42,7 +42,7 @@ public class LibraryManagement extends HttpServlet {
             }
             servletContext.setAttribute("users", users);
             writer.println("<center><B><h3><br><br>Welcome " + first_name + " !<br>Online users : " + users + "</h3>");
-            writer.println("<table style=\"width:30%\">");
+            writer.println("<table");
             writer.println("<tr><th>id</th>");
             writer.println("<th>name</th></tr>");
 

@@ -4,16 +4,25 @@ body {
     font-family: PT Serif Caption, serif;
     font-size: x-large;
     color: #bcb8c4;
-    background-image: url(https://mdbootstrap.com/img/Photos/Others/images/92.jpg);
+    background-image: url(https://images.wallpaperscraft.com/image/books_library_shelves_138556_1920x1080.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+    margin: 0;
+}
+
+* {
+    color: antiquewhite;
 }
 
 table, th, td {
-    border: 6px double rgba(70, 23, 53, 0.75);
-    background-color: rgba(11, 27, 140, 0.37);
+    border: 2px solid rgb(193 130 104);
+    background-color: #231a1294;
     border-collapse: collapse;
+}
+
+table {
+    width: 60%;
 }
 
 th, td {
@@ -24,39 +33,39 @@ th, td {
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 11px;
     overflow: hidden;
-    background-color: #0b1b8c;
+    background-color: #2b200cc7;
     position: fixed;
+    color: antiquewhite;
     top: 0;
     width: 100%;
 }
 
 li {
     float: left;
+    padding: 8px;
 }
 
 li a {
     display: block;
-    color: #bcb8c4;
+    color: antiquewhite;
     text-align: center;
     padding: 4px 4px;
     text-decoration: none;
 }
 
 li a:hover:not(.active) {
-    background-color: #111;
+    color: goldenrod;
 }
 
-::placeholder {
-    color: blue;
-    opacity: 1;
+h3 {
+    margin-top: 27px;
+    font-weight: 900;
+    color: #ffb988;
 }
 
-:-ms-input-placeholder {
-    color: blue;
-}
-
-::-ms-input-placeholder {
-    color: blue;
+input{
+    color: black;
+    background: #d69f78;
 }

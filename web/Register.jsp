@@ -10,7 +10,7 @@
 <head>
     <title>Register</title>
 </head>
-<body style="background-color: rgba(0,2,148,0.82)">
+<body style="background-color: antiquewhite">
 <center>
     <form><br><br>
         <input type="text" name="first_name" placeholder="First Name" required><br><br>
